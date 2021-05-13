@@ -1,3 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea/
 spider.iml
+/spider-annotations/pom.xml.versionsBackup
+/pom.xml.versionsBackup
+/spider-core/pom.xml.versionsBackup
+/spider-spring-ui/pom.xml.versionsBackup

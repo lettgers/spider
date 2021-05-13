@@ -9,8 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spider-annotations</artifactId>
-    <name>spider-annotations</name>
-    <description>注解</description>
+    <artifactId>spider-core</artifactId>
+
 
 </project>
