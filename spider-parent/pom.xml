@@ -11,8 +11,6 @@
         <module>spider-annotations</module>
         <module>spider-spring-ui</module>
         <module>spider-core</module>
-        <module>spider-gateway</module>
-        <module>spider-route</module>
         <module>spider-client</module>
         <module>spider-admin</module>
     </modules>
