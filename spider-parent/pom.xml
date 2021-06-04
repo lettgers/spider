@@ -5,19 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.spider</groupId>
     <artifactId>spider</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <modules>
-        <module>spider-annotations</module>
-        <module>spider-web</module>
-        <module>spider-core</module>
-        <module>spider-netflix</module>
-        <module>spider-admin</module>
+        <module>spider-gray</module>
     </modules>
     <packaging>pom</packaging>
     <name>spider-parent</name>
     <url>https://github.com/lettgers/spider</url>
-    <description>SpiderMan基于spring-boot提供网关业务</description>
+    <description>Spider基于spring-boot提供网关业务</description>
     <developers>
         <developer>
             <id>lettger</id>
@@ -31,7 +27,6 @@
     </developers>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spider.version>1.0.0</spider.version>
         <java.version>1.8</java.version>
         <spring.version>5.1.0.RELEASE</spring.version>
         <servlet.version>3.1.0</servlet.version>
@@ -39,6 +34,7 @@
         <slf4j.version>1.7.28</slf4j.version>
         <spring-boot.version>2.1.4.RELEASE</spring-boot.version>
         <hutool.version>5.4.1</hutool.version>
+        <jacoco.version>0.8.3</jacoco.version>
         <!-- 打包跳过单元测试 -->
         <skipTests>true</skipTests>
     </properties>
@@ -62,22 +58,6 @@
     <!--定义Jar包主版本-->
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>com.github.spider</groupId>
-                <artifactId>spider-annotations</artifactId>
-                <version>${spider.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.spider</groupId>
-                <artifactId>spider-web</artifactId>
-                <version>${spider.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.spider</groupId>
-                <artifactId>spider-core</artifactId>
-                <version>${spider.version}</version>
-            </dependency>
-
             <dependency>
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-all</artifactId>
