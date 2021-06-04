@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spider-spring-ui</artifactId>
+    <artifactId>spider-web</artifactId>
     <description>网关系统前端页面</description>
     <properties>
         <destDir>${project.build.outputDirectory}/META-INF/resources/</destDir>

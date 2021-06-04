@@ -9,9 +9,9 @@
 
     <modules>
         <module>spider-annotations</module>
-        <module>spider-spring-ui</module>
+        <module>spider-web</module>
         <module>spider-core</module>
-        <module>spider-client</module>
+        <module>spider-netflix</module>
         <module>spider-admin</module>
     </modules>
     <packaging>pom</packaging>
@@ -69,7 +69,7 @@
             </dependency>
             <dependency>
                 <groupId>com.github.spider</groupId>
-                <artifactId>spider-spring-ui</artifactId>
+                <artifactId>spider-web</artifactId>
                 <version>${spider.version}</version>
             </dependency>
             <dependency>
