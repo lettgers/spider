@@ -1,4 +1,4 @@
-# Created by .ignore support plugin (hsz.mobi)
+/spider-parent/
 .idea/
 spider.iml
 /spider-parent/pom.xml.versionsBackup
