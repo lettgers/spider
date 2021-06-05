@@ -1,9 +1,8 @@
-/spider-parent/
 .idea/
 spider.iml
-/spider-parent/pom.xml.versionsBackup
-/spider-parent/spider-gray/pom.xml.versionsBackup
-/spider-parent/spider-gray/spider-gray-client/pom.xml.versionsBackup
-/spider-parent/spider-gray/spider-gray-core/pom.xml.versionsBackup
-/spider-parent/spider-gray/spider-gray-netflix/pom.xml.versionsBackup
-/spider-parent/spider-gray/spider-gray-web/pom.xml.versionsBackup
+/pom.xml.versionsBackup
+/spider-gray/pom.xml.versionsBackup
+/spider-gray/spider-gray-client/pom.xml.versionsBackup
+/spider-gray/spider-gray-core/pom.xml.versionsBackup
+/spider-gray/spider-gray-netflix/pom.xml.versionsBackup
+/spider-gray/spider-gray-web/pom.xml.versionsBackup
